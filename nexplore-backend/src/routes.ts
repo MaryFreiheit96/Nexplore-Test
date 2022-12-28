@@ -20,7 +20,6 @@ export default async function (
   } else if (req.method === "PUT" && url.match(pathToRegexp("/:id"))) {
     await dutyService.editDuty(req, res);
   } else {
-    console.log("aqui", req.method);
     res.writeHead(200, {
       "Access-Control-Allow-Headers": "*",
       "Access-Control-Allow-Origin": "*",
