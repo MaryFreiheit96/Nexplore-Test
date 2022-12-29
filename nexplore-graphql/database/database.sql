@@ -1,3 +1,5 @@
+CREATE DATABASE nexplore-test;
+
 CREATE TABLE duties(
     id PRIMARY KEY, 
     name VARCHAR(40)

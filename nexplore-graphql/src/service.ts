@@ -1,8 +1,6 @@
 import { DutyRepository } from "./repositories/DutyRepository";
-import * as http from "http";
 import { IDuty } from "./interfaces/duty.interface";
 import { GraphQLError } from "graphql";
-import { ApolloServerErrorCode } from "@apollo/server/errors";
 
 export class DutyService {
   private repository: DutyRepository;
