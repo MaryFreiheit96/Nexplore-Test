@@ -10,8 +10,9 @@ I create 3 repositories:
 
 ```bash
 CREATE TABLE duties(
-    id PRIMARY KEY,
-    name VARCHAR(40)
+    id VARCHAR(50),
+    name VARCHAR(50),
+    PRIMARY KEY (id)
 )
 ```
 
